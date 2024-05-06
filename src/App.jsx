@@ -3,6 +3,7 @@
 
 function App() {
     return (
+
         <main>
             <header>
                 <h2>TMDE File Comparison</h2>
@@ -11,17 +12,18 @@ function App() {
             <div>
                 <h2>Upload Master Inventory Listing From PMEL Below (.PDF only)</h2>
                 <input type="file" accept="application/pdf"/>
-            </div>
+
                 <br/>
-            <div>
-                <h2>Upload Inventory from Access below (.CSV only)</h2>
-                <input type="file" accept=".text/csv"/>
-            </div>
+
+                <h2>Upload Inventory from Access below (.xlsx only)</h2>
+                <input type="file" accept=".xlsx"/>
+
 
             <br/><br/>
 
             <input type="submit" value="Submit"/>
 
+            </div>
 
             <br/><br/>
 
@@ -29,7 +31,7 @@ function App() {
                 <h3> click here to see guide on how to use the program.</h3>
             </div>
             <footer>
-                created by TSgt Marco Alvarez <a href="https://github.com/blazingjove"> GitHub</a>
+                created by Marco Alvarez  <a href="https://github.com/blazingjove"> GitHub</a>
             </footer>
         </main>
 
