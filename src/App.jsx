@@ -1,36 +1,40 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/joe.jpeg'
 
-import './App.css'
+//todo insert hithub logo for link to repo
 
 function App() {
-  const [count, setCount] = useState(0)
+    return (
+        <main>
+            <header>
+                <h2>TMDE File Comparison</h2>
+            </header>
 
-  return (
-    <>
-      <div>
-        <a href="https://vitejs.dev" target="_blank">
-          <img src={viteLogo} className="logo" alt="Vite logo" />
-        </a>
-        <a href="https://react.dev" target="_blank">
-          <img src={reactLogo} className="logo react" alt="React logo" />
-        </a>
-      </div>
-      <h1>Vite + React</h1>
-      <div className="card">
-        <button onClick={() => setCount((count) => count + 5)}>
-          count is {count}
-        </button>
-        <p>
-          Edit <code>src/App.jsx</code> and save to test HMR
-        </p>
-      </div>
-      <p className="read-the-docs">
-        Click on the Vite and React logos to learn more
-      </p>
-    </>
-  )
+            <div>
+                <h2>Upload Master Inventory Listing From PMEL Below (.PDF only)</h2>
+                <input type="file" accept="application/pdf"/>
+            </div>
+                <br/>
+            <div>
+                <h2>Upload Inventory from Access below (.CSV only)</h2>
+                <input type="file" accept=".text/csv"/>
+            </div>
+
+            <br/><br/>
+
+            <input type="submit" value="Submit"/>
+
+
+            <br/><br/>
+
+            <div>
+                <h3> click here to see guide on how to use the program.</h3>
+            </div>
+            <footer>
+                created by TSgt Marco Alvarez <a href="https://github.com/blazingjove"> GitHub</a>
+            </footer>
+        </main>
+
+    )
 }
 
-export default App
+export default App;
+
