@@ -1,36 +1,26 @@
-import GitLink from "./Store.jsx";
+import Help from "./Store.jsx";
+import Container from "./Store.jsx";
 
 //todo insert hithub logo for link to repo
 
 function App() {
     return (
-        <main>
-            <header>
+        <main className="App">
+            <header className="App-header">
                 <h2>TMDE File Comparison</h2>
             </header>
 
-            <div>
-                <h2>Upload Master Inventory Listing From PMEL Below (.PDF only)</h2>
-                <input type="file" accept="application/pdf"/>
-            </div>
-                <br/>
-            <div>
-                <h2>Upload Inventory from Access below (.XLSX only)</h2>
-                <input type="file" accept=".xlsx"/>
-            </div>
+            <Container/>
 
-            <br/><br/>
-
-            <input type="submit" value="Submit"/>
-
-            <br/><br/>
-
-            <div>
-                <h3> click here to see guide on how to use the web application.</h3>
-            </div>
+            <br/>
             <footer>
-                <div>Created by TSgt M. Alvarez /<GitLink/></div>
-                <h3 id = "hidden">Garrett is a big dummy</h3>
+                <div>
+                    <h3> click here to see guide on how to use the web application.</h3>
+                    <p>Created by TSgt M. Alvarez /<a href="https://github.com/blazingjove/docu_app"> GitHub repo</a>
+                    </p>
+
+                </div>
+                <h3 id="hidden">Garrett is a big dummy</h3>
             </footer>
         </main>
 
