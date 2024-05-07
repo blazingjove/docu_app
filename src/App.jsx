@@ -1,13 +1,15 @@
-import Help from "./Store.jsx";
-import Container from "./Store.jsx";
+import Container from "./home.jsx";
+import {useState} from "react";
 
 //todo insert hithub logo for link to repo
 
 function App() {
+
+
     return (
         <main className="App">
             <header className="App-header">
-                <h2>TMDE File Comparison</h2>
+                <h2>TMDE File Comparison tool</h2>
             </header>
 
             <Container/>
@@ -16,7 +18,7 @@ function App() {
             <footer>
                 <div>
                     <h3> click here to see guide on how to use the web application.</h3>
-                    <p>Created by TSgt M. Alvarez /<a href="https://github.com/blazingjove/docu_app"> GitHub repo</a>
+                    <p>Created by M. Alvarez /<a href="https://github.com/blazingjove/docu_app"> GitHub repo</a>
                     </p>
 
                 </div>
