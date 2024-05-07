@@ -15,7 +15,7 @@
 
 a {
   font-weight: 500;
-  color: #535bf2535bf2;
+  color: inherit;
   text-decoration: inherit;
 }
 a:hover {
@@ -72,6 +72,15 @@ button{
 #hidden {
   color: #242424;
 }
+
+.PostPage{
+  display: block;
+}
+
+.PrePage {
+  display: none;
+}
+
 
 @media (prefers-color-scheme: light) {
   :root {

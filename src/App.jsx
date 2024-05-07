@@ -17,7 +17,7 @@ function App() {
             <br/>
             <footer>
                 <div>
-                    <h3> click here to see guide on how to use the web application.</h3>
+                    <a> click here to see guide on how to use the web application.</a>
                     <p>Created by M. Alvarez /<a href="https://github.com/blazingjove/docu_app"> GitHub repo</a>
                     </p>
 
